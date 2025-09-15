@@ -53,7 +53,7 @@ const AuthProvider = ({ children }) => {
   const refreshAuth = async () => {
     if (!auth?.token) return;
     try {
-      const res = await fetch('https://notes-backend-teal.vercel.app/api/auth/me', {
+      const res = await fetch('notes-backend-teal.vercel.app/api/auth/me', {
         headers: { Authorization: `Bearer ${auth.token}` },
       });      
       if (res) {

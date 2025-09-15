@@ -1,5 +1,5 @@
-const API_BASE = 'https://notes-backend-teal.vercel.app/api'; // Proxy or backend base URL in Vercel
-const LOCAL_API_BASE = 'http://localhost:3000/api'; // Local backend URL
+const API_BASE = 'notes-backend-teal.vercel.app/api'; // Proxy or backend base URL in Vercel
+// const LOCAL_API_BASE = 'http://localhost:3000/api'; // Local backend URL
 
 async function login(email, password) {
   const res = await fetch(`${API_BASE}/auth/login`, {
