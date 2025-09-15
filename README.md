@@ -41,7 +41,6 @@ git clone <repo-url>
 cd <frontend-folder>
 npm install
 
-text
 
 ### Development Server
 
@@ -49,15 +48,11 @@ Run locally with hot reload:
 
 npm run dev
 
-text
-
 Open http://localhost:5173 in your browser.
 
 ### Build for Production
 
 npm run build
-
-text
 
 The build output is in the `dist/` folder.
 
