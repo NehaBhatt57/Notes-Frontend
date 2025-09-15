@@ -11,7 +11,7 @@ const InviteUsersForm = () => {
 
   // Replace with your actual invite API call
   const inviteUser = async (token, tenantSlug, email, role) => {
-    const res = await fetch(`http://localhost:3000/api/tenants/${tenantSlug}/invite`, {
+    const res = await fetch(`https://notes-backend-teal.vercel.app/api/tenants/${tenantSlug}/invite`, {
       method: 'POST',
       headers: { 
         'Content-Type': 'application/json',
